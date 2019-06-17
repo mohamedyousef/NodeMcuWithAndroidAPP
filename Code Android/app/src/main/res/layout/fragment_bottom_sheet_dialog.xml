@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"  android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent" android:background="@color/colorNavText"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center" android:textColor="#fff"
+                android:textSize="26sp"
+                android:text="Details" android:fontFamily="@font/hacencasablancaheavy"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar" android:textSize="18sp" android:fontFamily="@font/hacencasablancaheavy"
+        android:layout_centerHorizontal="true" android:textColor="#444"
+        android:text="Auto Control : \n يتحكم تلقائيا بجهاز الري  علي النسب والمعايير المثبتة سابقا دون تعديل في حركة الجهاز .. \n
+Manual Control : \n من خلال هذا الزر يتم التحكم بماكينة الري كاملة مع اضافة المعايير  والمقاييس الذي يريدها المستخدم  مثلا   \n سرعة الماكينة - نسبة قياس الرطوبة  - الاضاءة   \n  مع ايقاف او تشغيل الماكينة .. \n  Light : \n ا ذا اردت تشغيل الاضاءة حول الماكينة او التحكم باالاضاءة عامة .. "  android:padding="10dp" android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

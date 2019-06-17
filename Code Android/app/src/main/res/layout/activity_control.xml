@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="160dp" app:cardCornerRadius="10dp" android:id="@+id/card_auto"
+        app:cardBackgroundColor="@color/colorNavText" android:layout_margin="10dp" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/bu_img"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/computer" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auto Control" android:textColor="#fff"
+                android:layout_below="@+id/bu_img"
+                android:textSize="26sp"
+                android:fontFamily="@font/odin"
+                android:textAlignment="center" android:padding="8dp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="160dp" app:cardCornerRadius="10dp" android:id="@+id/card_goto_light"
+        app:cardBackgroundColor="@color/blue" android:layout_margin="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/bu_img2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/idea" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Light" android:textColor="#fff"
+                android:layout_below="@+id/bu_img2"
+                android:textSize="26sp"
+                android:fontFamily="@font/odin"
+                android:textAlignment="center" android:padding="10dp"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="160dp" app:cardCornerRadius="10dp" android:id="@+id/card_goto_manual"
+            app:cardBackgroundColor="@color/purple" android:layout_margin="10dp" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/bu_img3"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/settings" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manual Control" android:textColor="#fff"
+                    android:layout_below="@+id/bu_img3"
+                    android:textSize="26sp"
+                    android:fontFamily="@font/odin"
+                    android:textAlignment="center" android:padding="10dp"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp" android:layout_weight="1" android:id="@+id/card_details"
+            android:layout_height="160dp" app:cardCornerRadius="10dp" android:onClick="BuGotoDetails"
+            app:cardBackgroundColor="@color/colorpurple2" android:layout_margin="10dp"
+            tools:ignore="OnClick">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/bu_img4"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/details" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Details" android:textColor="#fff"
+                    android:layout_below="@+id/bu_img4"
+                    android:textSize="26sp"
+                    android:fontFamily="@font/odin"
+                    android:textAlignment="center" android:padding="10dp"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

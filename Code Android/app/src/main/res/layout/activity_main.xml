@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Irrigation" android:fontFamily="@font/odin"
+        android:textColor="#E5E5E5" android:layout_alignParentTop="true"
+        android:textSize="46sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/title_splash"
+        />
+
+
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="180dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="80dp"
+    android:layout_marginRight="80dp"
+    android:layout_below="@+id/title_splash"
+    app:cardBackgroundColor="@android:color/transparent" >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/power"
+        android:scaleType="center" android:onClick="ButGotoPower"
+        tools:ignore="OnClick"
+        android:background="@drawable/card_button"
+        />
+</android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

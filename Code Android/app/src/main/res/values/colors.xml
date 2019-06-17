@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightpurple">#673bb7</color>
+    <color name="purple">#04384A</color>
+    <color name="orange">#ff5521</color>
+    <color name="darkColor">#222222</color>
+    <color name="gray">#AEB8C3</color>
+    <color name="ripple_effect" >#f816a463</color>
+    <color name="ripple_btn_sigin" >#1fbad6</color>
+    <color name="btn_register_color">#83838c</color>
+    <color name= "black">#222</color>
+    <color name= "base_press">#fafafa</color>
+    <color name="ball_relase">#FEFEFE</color>
+    <color name="blue">#278be3</color>
+    <color name="colorNav">#e4edfa</color>
+    <color name="colorNav2">#edf3fb</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+    <color name="colordakble">#008bba</color>
+    <color name="colorpurple">#86269b</color>
+    <color name="colorpurple2">#DA635D</color>
+    <color name="yellow">#F9CE00</color>
+    <color name="green">#00a03e</color>
+
+</resources>

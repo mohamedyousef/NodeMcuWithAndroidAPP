@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AutoActivity" android:background="@color/black">
+
+
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"  android:gravity="center"
+        android:scaleX="5" android:id="@+id/swi"
+        android:theme="@style/SCBSwitch" android:layout_marginTop="350dp"
+        android:scaleY="5" android:layout_centerHorizontal="true"
+        />
+
+
+    <com.stfalcon.chatkit.messages.MessageInput
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:inputHint="اكتب نسبة المستشعر"
+        app:showAttachmentButton="true" app:inputTextColor="#fff"/>
+
+</RelativeLayout>

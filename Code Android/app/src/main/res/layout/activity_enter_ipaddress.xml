@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/black"
+    tools:context=".EnterIPAddressActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent" android:padding="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="25dp"
+        android:layout_height="wrap_content" android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints" >
+    <RelativeLayout
+        android:layout_width="match_parent" android:padding="15dp"
+        android:layout_height="wrap_content">
+         <EditText
+             android:layout_width="match_parent"
+             android:padding="10dp"
+             android:textSize="21sp"
+             android:id="@+id/buclick_enterIP"
+             android:hint="IP Address"
+             android:layout_margin="5dp"
+             android:layout_height="wrap_content"
+             />
+
+        <Button
+            android:layout_width="match_parent" android:layout_below="@+id/buclick_enterIP"
+               android:padding="10dp" android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"   android:layout_margin="10dp"
+            android:background="@color/blue"  android:textColor="#fff"
+            android:text="ok" android:onClick="ButGotoMain"
+            tools:ignore="OnClick"
+            />
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

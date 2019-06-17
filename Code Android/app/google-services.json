@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "262621300975",
+    "firebase_url": "https://linearirrigation.firebaseio.com",
+    "project_id": "linearirrigation",
+    "storage_bucket": "linearirrigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262621300975:android:c6171870d42f3c40",
+        "android_client_info": {
+          "package_name": "com.uniyapps.smartvalleyautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262621300975-3mrf1o24dfdrrm28rd04iok5gvotvuu8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniyapps.smartvalleyautomation",
+            "certificate_hash": "f6f242a0c693df7ee6aed8deb9104807626d5f22"
+          }
+        },
+        {
+          "client_id": "262621300975-117lkr3qu6m4ipqv7pa20ulb8f3d92e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vJ_ITq_v4aWWCfqj5TYIo_P1hyerBkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262621300975-117lkr3qu6m4ipqv7pa20ulb8f3d92e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
